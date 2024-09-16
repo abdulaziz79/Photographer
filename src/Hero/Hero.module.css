@@ -1,0 +1,41 @@
+.container{
+    position: relative;
+}
+.img{
+    object-fit: cover;
+    height: 71vh;
+    width: 100%;
+}
+.pLeft{
+    position: absolute;
+    top: 20%;
+    color: white;
+    left: 5%;
+}
+.frame{
+    font-size: 20.2vw; /* Initial responsive size, adjust as needed */
+    /* margin: 0; */
+    font-weight: bold;
+    text-align: center;
+    /* white-space: nowrap;  */
+    line-height: 1; /* Ensure the line height doesn't affect the sizing */
+    /* width: 100vw;  */
+    margin-top: -4.9%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: cover;
+    background-position:bottom;
+    background-image: url('/src/Images/hero.jpg'); 
+    color: transparent;
+    text-shadow: 20px -10px 60px rgba(0, 0, 0, 0.3)
+}
+@media  ( max-width:1300px) {
+    .img{
+        height: 55vh;
+    }
+}
+@media  ( max-width:1088px) {
+    .img{
+        height: 50vh;
+    }
+}
