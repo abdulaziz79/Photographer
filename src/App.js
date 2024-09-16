@@ -12,11 +12,11 @@ function App() {
       <section className={styles.hero}>
       <Hero />
       </section>
-      <section className={styles.work}>
-        <MyWork />
-      </section>
       <section className={styles.about}>
         <About />
+      </section>
+      <section className={styles.work}>
+        <MyWork />
       </section>
     </div>
   );

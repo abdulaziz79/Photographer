@@ -1,11 +1,14 @@
 .All{
     height: 100%;
-    width: 75%;
+    width: 85%;
     margin: auto;
+    border: 3px solid rgba(97, 94, 94, 0.531);
+    padding: 20px;
+    border-top: none;
     /* background-color: rgb(96, 34, 34); */
 }
 .bottom{
-    height: 180vh;
+    height: 200vh;
     width: 100%;
     /* background-color: rgb(138, 138, 140); */
 
@@ -112,4 +115,40 @@
     gap: 0;
     height: 100%;
     background-color:rgb(193, 192, 192);
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    text-align: end;
+}
+.h2{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.p{
+    font-size: 23px;
+}
+.rotateIcon{
+    width: 70px;
+    transform: rotate(180deg);
+    opacity: 0.8;
+}
+.yearScroll{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    gap: 44px;
+ 
+}
+.pYear{
+    font-size: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 50px;
+    margin-top: 14%;
 }

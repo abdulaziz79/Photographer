@@ -29,6 +29,19 @@
     color: transparent;
     text-shadow: 20px -10px 60px rgba(0, 0, 0, 0.3)
 }
+.pRight{
+    position: absolute;
+    right: 4%;
+    font-size: 30px;
+    text-align: end;
+    color: white;
+    line-height: 28px;
+    font-weight: 300;
+    top: 40%;
+}
+
+
+
 @media  ( max-width:1300px) {
     .img{
         height: 55vh;

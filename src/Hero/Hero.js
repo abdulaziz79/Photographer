@@ -11,6 +11,7 @@ function Hero() {
         {/* <div className={styles.heroBackgrd} ></div> */}
         <img src={image} className={styles.img} alt='hero'></img>
         <p className={styles.pLeft}> AN-AWARD WINNIG<br/> PHOTOGRAPHER WHOSE LENS<br /> TRANSFORMS MOMENTS INTO<br /> TIMELESS MASTERPIECES</p>
+          <p className={styles.pRight}>SCROLL <br /> MORE</p>
           <div className={styles.frame}>
             FRAMEUP
           </div>
