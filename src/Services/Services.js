@@ -17,22 +17,27 @@ function Services() {
         <div className={style.desc}>
           <img src={icon} className={style.icon} />
           <h2 className={style.h2}>PORTRAITURE</h2>
+          <div className={style.heroBackgrd}></div>
         </div>
-        <div className={style.desc}>
+        <div className={style.desc1}>
           <img src={icon} className={style.icon} />
           <h2 className={style.h2}>EVENT COVERAGE</h2>
+          <div className={style.heroBackgrd}></div>
         </div>
-        <div className={style.desc}>
+        <div className={style.desc2}>
           <img src={icon} className={style.icon} />
           <h2 className={style.h2}>COMMERCIAL PHOTO</h2>
+          <div className={style.heroBackgrd}></div>
         </div>
-        <div className={style.desc}>
+        <div className={style.desc3}>
           <img src={icon} className={style.icon} />
           <h2 className={style.h2}>WEDDING PHOTO</h2>
+          <div className={style.heroBackgrd}></div>
         </div>
-        <div className={style.desc}>
+        <div className={style.desc4}>
           <img src={icon} className={style.icon} />
           <h2 className={style.h2}>FINE ART PHOTO</h2>
+          <div className={style.heroBackgrd}></div>
         </div>
       </div>
     </main>

@@ -18,7 +18,7 @@ import image9 from "../Images/hero.jpg";
 function MyWork() {
   // Array of image sets, each containing 8 images
   const imageSets = [
-    [image1, image2, iconLeft, image4, image5, image6, image7, image8],
+    [image1, image2, image1, image4, image5, image6, image7, image8],
     [image9, iconLeft, image2, image3, image4, image5, image6, image7],
     [image8, image9, iconRight, image2, image3, image4, image5, iconRight], 
   ];

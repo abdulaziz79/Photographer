@@ -40,15 +40,42 @@
     top: 40%;
 }
 
-
+.heroBackgrd {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 71vh;
+    background: rgba(93, 92, 92, 0.097); 
+}
+/* .heroBackgrd1 {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: cover;
+    background-position:bottom;
+    background: rgba(0, 8, 30, 0.6); 
+} */
 
 @media  ( max-width:1300px) {
     .img{
         height: 55vh;
     }
+    .heroBackgrd{
+        height: 55vh;
+    }
 }
 @media  ( max-width:1088px) {
     .img{
+        height: 50vh;
+    }
+    .heroBackgrd{
         height: 50vh;
     }
 }
