@@ -1,0 +1,46 @@
+.container {
+    width: 100%;
+    position: relative;
+    height: fit-content;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.image {
+    object-fit: cover;
+    width: 100%; /* Take full width */
+    height: 70%; /* Auto height for better responsiveness */
+    margin: auto;
+    display: block; /* Flex may not be needed */
+}
+
+.p {
+    font-size: 20vw;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url('/src/Images/hero.jpg'); 
+    background-position: top;
+    background-size: cover;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-bottom: -9rem; 
+}
+
+/* @media (max-width: 768px) {
+    .p {
+        font-size: 40vw;
+    }
+} */
+
+/* @media (max-width: 480px) {
+    .p {
+        font-size: 50vw;
+    } */
+/* } */

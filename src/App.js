@@ -5,6 +5,8 @@ import Hero from './Hero/Hero';
 import styles from "./App.module.css"
 import About from './About/About';
 import MyWork from './MyWork/MyWork';
+import Services from './Services/Services';
+import Contact from './Contact/Contact';
 
 function App() {
   return (
@@ -17,6 +19,12 @@ function App() {
       </section>
       <section className={styles.work}>
         <MyWork />
+      </section>
+      <section className={styles.Services}>
+        <Services />
+      </section>
+      <section className={styles.Contact}>
+        <Contact />
       </section>
     </div>
   );

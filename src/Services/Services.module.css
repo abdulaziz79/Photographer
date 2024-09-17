@@ -1,0 +1,46 @@
+.container{
+    width: 85%;
+    margin: auto;
+    border: 3px solid rgba(97, 94, 94, 0.531);
+    padding: 20px;
+    border-top: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    /* margin-bottom: 500px; */
+}
+.left{
+    line-height: 20px;
+}
+.h1{
+    font-size: 80px;
+    font-weight: 500;
+    transform: scaleY(0.95);
+}
+.p{
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: -10px;
+    font-weight: 450;
+    opacity: 0.9;
+    
+}
+.right{
+    width: 55%;
+    /* margin-top: 3%; */
+}
+.desc{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(155, 153, 153);
+}
+.icon{
+    width: 80px;
+}
+.h2{
+    font-size: 70px;
+    font-weight: 450;
+    padding-right: 1rem;
+}

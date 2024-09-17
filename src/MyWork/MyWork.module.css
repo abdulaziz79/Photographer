@@ -5,6 +5,7 @@
     border: 3px solid rgba(97, 94, 94, 0.531);
     padding: 20px;
     border-top: none;
+    padding-bottom: 60px;
     /* background-color: rgb(96, 34, 34); */
 }
 .bottom{
@@ -78,7 +79,7 @@
     object-fit: cover;
     width: 48%;
     border: 2px solid white;
-    transform: rotate(20deg);
+    transform: rotate(17deg);
     background-color: white;
     transform-origin: top right;
 }
@@ -124,17 +125,26 @@
     text-align: end;
 }
 .h2{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 500;
     line-height: 20px;
 }
 .p{
     font-size: 23px;
+    width: 400px;
 }
 .rotateIcon{
     width: 70px;
     transform: rotate(180deg);
     opacity: 0.8;
+    cursor: pointer;
+}
+.rotateIcon1{
+    width: 70px;
+    /* transform: rotate(180deg); */
+    opacity: 0.8;
+    cursor: pointer;
+    color: rgb(235, 12, 12);
 }
 .yearScroll{
     display: flex;
